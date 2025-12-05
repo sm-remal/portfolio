@@ -85,7 +85,7 @@ const Projects = () => {
     >
       {/* Section Title */}
       <motion.h2
-        className="text-4xl md:text-5xl font-bold text-center mb-16 text-indigo-500"
+        className="text-4xl md:text-5xl font-bold text-center mb-16 lora text-white"
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}

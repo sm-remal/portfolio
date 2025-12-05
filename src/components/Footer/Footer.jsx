@@ -12,7 +12,7 @@ const Footer = () => {
         transition={{ duration: 0.8 }}
       >
         {/* Meaningful Title */}
-        <h2 className="text-2xl font-bold text-white text-center">
+        <h2 className="text-xl font-bold text-gray-400 text-center">
           Let’s Build Something Awesome Together
         </h2>
 

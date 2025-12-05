@@ -10,7 +10,7 @@ const About = () => {
     >
       {/* Section Title */}
       <motion.h2
-        className="text-4xl md:text-5xl font-bold text-center mb-12 text-indigo-500"
+        className="text-4xl md:text-5xl font-bold text-center mb-12 lora text-white"
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -28,13 +28,13 @@ const About = () => {
         {/* Left Text */}
         <div className="space-y-6 text-gray-300">
           <p>
-            I am a <span className="text-indigo-400 font-semibold">dedicated Computer Science and Engineering student</span> passionate about building efficient, scalable, and user-friendly software solutions. My journey is focused on mastering <span className="text-indigo-400 font-semibold">MERN Stack development</span> across front-end and back-end technologies.
+            I am a <span className="text-rose-600 font-semibold">dedicated Computer Science and Engineering student</span> passionate about building efficient, scalable, and user-friendly software solutions. My journey is focused on mastering <span className="text-rose-500 font-semibold">MERN Stack development</span> across front-end and back-end technologies.
           </p>
           <p>
-            Continuously honing my skills in modern programming languages, frameworks, and tools, I deliver complete <span className="text-indigo-400 font-semibold">end-to-end solutions</span>. With a strong foundation in algorithms, data structures, and system design, I contribute to dynamic and innovative projects that solve real-world problems.
+            Continuously honing my skills in modern programming languages, frameworks, and tools, I deliver complete <span className="text-rose-500 font-semibold">end-to-end solutions</span>. With a strong foundation in algorithms, data structures, and system design, I contribute to dynamic and innovative projects that solve real-world problems.
           </p>
           <p>
-            Open to collaborations and new opportunities, I aim to expand my expertise in <span className="text-indigo-400 font-semibold">MERN stack development</span> while creating meaningful digital experiences.
+            Open to collaborations and new opportunities, I aim to expand my expertise in <span className="text-rose-500 font-semibold">MERN stack development</span> while creating meaningful digital experiences.
           </p>
         </div>
 
@@ -46,7 +46,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <FaLaptopCode className="text-indigo-400 text-3xl" />
+            <FaLaptopCode className="text-rose-500 text-3xl" />
             <div>
               <h3 className="text-xl font-semibold">Current Work</h3>
               <p className="text-gray-300">Building MERN stack projects</p>
@@ -59,7 +59,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <FaCode className="text-indigo-400 text-3xl" />
+            <FaCode className="text-rose-500 text-3xl" />
             <div>
               <h3 className="text-xl font-semibold">Skills</h3>
               <p className="text-gray-300">
@@ -74,7 +74,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <FaReact className="text-indigo-400 text-3xl" />
+            <FaReact className="text-rose-500 text-3xl" />
             <div>
               <h3 className="text-xl font-semibold">Goal</h3>
               <p className="text-gray-300">Become a professional MERN Stack Developer</p>
@@ -87,7 +87,7 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
-            <FaDatabase className="text-indigo-400 text-3xl" />
+            <FaDatabase className="text-rose-500 text-3xl" />
             <div>
               <h3 className="text-xl font-semibold">Open To</h3>
               <p className="text-gray-300">Collaboration on MERN stack projects</p>
