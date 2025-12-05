@@ -1,38 +1,38 @@
 import React from 'react';
 import { HiMail } from 'react-icons/hi';
-import { FaGithub, FaLinkedin, FaDiscord, FaWhatsapp, FaWeixin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaDiscord, FaWhatsapp, FaWeixin, FaFacebook } from 'react-icons/fa';
 
 const Contact = () => {
   const contactMethods = [
     {
       icon: HiMail,
       title: 'Email',
-      subtitle: 'armanislam88@gmail.com',
-      link: 'mailto:armanislam88@gmail.com',
+      subtitle: 'remal.mozzem@gmail.com',
+      link: 'mailto:remal.mozzem@gmail.com',
       bgColor: 'bg-red-500/10',
       iconColor: 'text-red-500'
     },
     {
       icon: FaGithub,
       title: 'GitHub',
-      subtitle: '@armanislams',
-      link: 'https://github.com/armanislams',
+      subtitle: '@sm-remal',
+      link: 'https://github.com/sm-remal',
       bgColor: 'bg-purple-500/10',
       iconColor: 'text-purple-500'
     },
     {
       icon: FaLinkedin,
       title: 'LinkedIn',
-      subtitle: 'Md Arman Islam',
-      link: 'https://linkedin.com/in/armanislam',
+      subtitle: '@sm-remal',
+      link: 'https://www.linkedin.com/in/sm-remal/',
       bgColor: 'bg-blue-500/10',
       iconColor: 'text-blue-500'
     },
     {
       icon: FaDiscord,
       title: 'Discord',
-      subtitle: 'Join Server',
-      link: '#',
+      subtitle: 'Shah Mozzem Remal',
+      link: 'https://discord.com/channels/@me',
       bgColor: 'bg-indigo-500/10',
       iconColor: 'text-indigo-500'
     },
@@ -45,12 +45,12 @@ const Contact = () => {
       iconColor: 'text-green-500'
     },
     {
-      icon: FaWeixin,
-      title: 'WeChat',
-      subtitle: 'Add on WeChat',
-      link: '#',
-      bgColor: 'bg-emerald-500/10',
-      iconColor: 'text-emerald-500'
+      icon: FaFacebook,
+      title: 'Facebook',
+      subtitle: 'Shahmozzem.remal',
+      link: 'https://www.facebook.com/shahmozzem.remal',
+      bgColor: 'bg-blue-500/10',
+      iconColor: 'text-[#1877F2]'
     }
   ];
 
@@ -76,10 +76,10 @@ const Contact = () => {
             <div className="h-1 w-32 bg-gradient-to-r from-rose-500 via-rose-500 to-rose-500 rounded-full"></div>
           </div>
           <p className="text-gray-400 text-lg">
-            Feel Free To Contact Me
+            Reach Out Anytime
           </p>
           <p className="text-gray-500 mt-3 max-w-2xl mx-auto">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            I’m always excited to explore new projects, share creative ideas, and contribute to bringing your vision to life.
           </p>
         </div>
 
