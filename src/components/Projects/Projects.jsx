@@ -81,7 +81,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-gray-900 text-white px-6 md:px-20 py-20"
+      className=" text-white px-6 md:px-20"
     >
       {/* Section Title */}
       <motion.h2

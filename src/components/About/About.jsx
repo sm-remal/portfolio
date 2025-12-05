@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-gray-900 text-white px-6 md:px-20 py-20 flex flex-col justify-center"
+      className=" text-white px-6 md:px-20  flex flex-col justify-center"
     >
       {/* Section Title */}
       <motion.h2

@@ -153,7 +153,7 @@ const tools = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="bg-gray-900 text-white px-6 md:px-20 py-20">
+    <section id="skills" className=" text-white px-6 md:px-20 py-20">
       {/* Skills Section */}
       <motion.h2
         className="text-4xl md:text-5xl font-bold text-center mb-12 lora text-white"

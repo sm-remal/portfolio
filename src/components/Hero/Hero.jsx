@@ -5,7 +5,7 @@ import remal_Image from "../../assets/remal_Image.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 -mt-22 bg-gray-900 overflow-hidden">
+    <section className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 -mt-22 overflow-hidden">
 
       {/* Floating Background Blobs */}
       <motion.div
@@ -60,7 +60,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 mt-4">
           <a
             href="/path-to-your-resume.pdf"
-            className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-rose-600 via-red-600 to-red-700
+            className="inline-flex items-center justify-center px-6 py-3 bg-rose-700
             hover:from-rose-700 hover:via-red-700 hover:to-red-800
             text-white rounded-xl font-medium shadow-md transition"
           >
