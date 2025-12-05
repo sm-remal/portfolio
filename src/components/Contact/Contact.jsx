@@ -55,7 +55,7 @@ const Contact = () => {
   ];
 
   return (
-    <div className="min-h-screen mt-14 bg-neutral-950 flex items-center justify-center p-6">
+    <div className="mt-14 flex items-center justify-center p-6">
       <div className="max-w-4xl w-full">
         {/* Cursor Animation */}
         <div className="flex justify-center mb-12">
