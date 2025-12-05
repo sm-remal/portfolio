@@ -1,42 +1,39 @@
 import React from "react";
 import { motion, useMotionValue, useAnimationFrame } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import skillSwap from "../../assets/projects/skillSwap.PNG"
+import payBills from "../../assets/projects/paybill.PNG"
+import gadget from "../../assets/projects/gadgetzone.PNG"
+import dragonNews from "../../assets/projects/dragonNews.PNG"
 
 const projects = [
   {
-    title: "Portfolio Website",
-    description: "Modern portfolio with React, Tailwind CSS & Framer Motion.",
-    image: "/projects/portfolio.jpg",
-    github: "#",
-    live: "#",
+    title: "SkillSwap Platform",
+    description: "Discover and exchange skills with creative minds near you — from coding and design to music and public speaking. Learn together, connect, and grow.",
+    image: skillSwap,
+    github: "https://github.com/sm-remal/skillswap-platform?tab=readme-ov-file",
+    live: "https://skill-swap-4c338.web.app/",
   },
   {
-    title: "E-commerce App",
-    description: "Full-stack MERN e-commerce app with payment integration.",
-    image: "/projects/ecommerce.jpg",
-    github: "#",
-    live: "#",
+    title: "UtilityPay",
+    description: "MERN Stack base - Utility Bill Management System.",
+    image: payBills,
+    github: "https://github.com/sm-remal/utility-bills-client",
+    live: "https://utility-bills-client.web.app/",
   },
   {
-    title: "Blog Platform",
-    description: "Blog platform using Next.js, MongoDB & Tailwind CSS.",
-    image: "/projects/blog.jpg",
-    github: "#",
-    live: "#",
+    title: "Gadget Zone",
+    description: "Use Next.JS – E-Commerce Gadget Store.",
+    image: gadget,
+    github: "https://github.com/sm-remal/gadget-zone-client",
+    live: "https://gadget-zone-client.vercel.app/",
   },
   {
-    title: "Chat App",
-    description: "Real-time chat app using Socket.io & React.",
-    image: "/projects/chat.jpg",
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Task Manager",
-    description: "CRUD task manager app with React & Node.js backend.",
-    image: "/projects/tasks.jpg",
-    github: "#",
-    live: "#",
+    title: "The Dragon News",
+    description: "Trusted source for accurate and timely updates.",
+    image: dragonNews,
+    github: "https://github.com/sm-remal/dragon-news",
+    live: "https://the-dragon-news11.netlify.app/category/1",
   },
 ];
 
