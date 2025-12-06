@@ -11,3 +11,18 @@ body {
 .logo{
    font-family: "Righteous", sans-serif;
 }
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}

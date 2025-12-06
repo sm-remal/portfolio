@@ -5,7 +5,7 @@ import remal_Image from "../../assets/remal_Image.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 -mt-22 overflow-hidden">
+    <section id="home" className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 -mt-22 overflow-hidden">
 
       {/* Floating Background Blobs */}
       <motion.div
@@ -59,7 +59,8 @@ const Hero = () => {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-4">
           <a
-            href="/path-to-your-resume.pdf"
+            href="/Shah_Mozzem_Remal_Resume.pdf"
+            download="Shah_Mozzem_Remal_Resume.pdf"
             className="inline-flex items-center justify-center px-6 py-3 bg-rose-700
             hover:from-rose-700 hover:via-red-700 hover:to-red-800
             text-white rounded-xl font-medium shadow-md transition"
@@ -67,11 +68,11 @@ const Hero = () => {
             Download Resume
           </a>
           <a
-            href="#projects"
+            href="#contact"
             className="inline-flex items-center justify-center px-6 py-3 border border-rose-600 text-rose-400 rounded-xl font-medium shadow-md
             hover:text-white hover:bg-gradient-to-r hover:from-rose-700 hover:via-red-700 hover:to-red-800 transition"
           >
-            See My Projects
+            Hire Me
           </a>
         </div>
       </motion.div>

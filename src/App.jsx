@@ -6,10 +6,15 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
+import MouseFollower from "./components/MouseFollower/MouseFollower";
+import { Toaster } from 'react-hot-toast';
+import Education from "./components/Education/Education";
+
 
 function App() {
   return (
     <div className="bg-neutral-950 text-white">
+      <MouseFollower />
       {/* Navbar */}
       <Navbar />
 
@@ -26,13 +31,16 @@ function App() {
 
         {/* Projects */}
         <Projects />
+        <Education></Education>
 
         {/* Contact */}
         <Contact />
 
         {/* Footer  */}
         <Footer />
+
       </main>
+       <Toaster />
     </div>
   );
 }

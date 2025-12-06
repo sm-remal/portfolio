@@ -19,7 +19,7 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex gap-6 text-2xl">
           <a
-            href="https://github.com/"
+            href="https://github.com/sm-remal"
             target="_blank"
             rel="noreferrer"
             className="hover:text-indigo-500 transition"
@@ -27,7 +27,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/sm-remal/"
             target="_blank"
             rel="noreferrer"
             className="hover:text-indigo-500 transition"
@@ -35,7 +35,7 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://x.com/sm_remal"
             target="_blank"
             rel="noreferrer"
             className="hover:text-indigo-500 transition"
