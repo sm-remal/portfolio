@@ -31,7 +31,9 @@ function App() {
 
         {/* Projects */}
         <Projects />
-        <Education></Education>
+
+        {/* Education  */}
+        <Education />
 
         {/* Contact */}
         <Contact />
