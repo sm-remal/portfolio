@@ -41,7 +41,7 @@ const Hero = () => {
         {/* Subtitle with typing effect */}
         <h2 className="text-2xl md:text-3xl font-semibold text-green-400">
           <Typewriter
-            words={["MERN Stack Developer"]}
+            words={["Full Stack Developer"]}
             loop
             cursor
             cursorStyle="|"
